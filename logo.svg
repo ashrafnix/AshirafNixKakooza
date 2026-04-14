@@ -1,0 +1,56 @@
+<svg width="250" height="56" viewBox="0 0 250 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="brand" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#7C3AED"/>
+      <stop offset="50%"  stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+    <linearGradient id="ai" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+    </linearGradient>
+    <linearGradient id="hexfill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#7C3AED" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.06"/>
+    </linearGradient>
+    <marker id="arr-top" markerWidth="5" markerHeight="5" refX="3" refY="2.5" orient="auto">
+      <path d="M 0 0 L 5 2.5 L 0 5 Z" fill="#A855F7"/>
+    </marker>
+    <marker id="arr-bot" markerWidth="5" markerHeight="5" refX="3" refY="2.5" orient="auto">
+      <path d="M 0 0 L 5 2.5 L 0 5 Z" fill="#3B82F6"/>
+    </marker>
+  </defs>
+
+  <!-- Hexagon (flat-top, r=24, centered at 30,28) -->
+  <polygon
+    points="54,28 42,48.78 18,48.78 6,28 18,7.22 42,7.22"
+    fill="url(#hexfill)"
+    stroke="url(#brand)"
+    stroke-width="2.5"
+    stroke-linejoin="round"/>
+
+  <!-- Top arc (left to right, curving up) with arrowhead -->
+  <path d="M 17 30 C 17 16, 43 16, 43 30"
+    fill="none" stroke="url(#brand)" stroke-width="2.2"
+    stroke-linecap="round" marker-end="url(#arr-top)"/>
+
+  <!-- Bottom arc (right to left, curving down) with arrowhead -->
+  <path d="M 43 30 C 43 44, 17 44, 17 30"
+    fill="none" stroke="url(#brand)" stroke-width="2.2"
+    stroke-linecap="round" marker-end="url(#arr-bot)"/>
+
+  <!-- Center dot -->
+  <circle cx="30" cy="28" r="3.5" fill="url(#brand)"/>
+  <circle cx="30" cy="28" r="1.5" fill="white" fill-opacity="0.6"/>
+
+  <!-- Wordmark -->
+  <text x="68" y="37"
+    font-family="Inter, 'Space Grotesk', system-ui, sans-serif"
+    font-size="21" font-weight="700" letter-spacing="-0.4"
+    fill="#F1F5F9">Repurpose</text>
+
+  <text x="196" y="37"
+    font-family="Inter, 'Space Grotesk', system-ui, sans-serif"
+    font-size="21" font-weight="800" letter-spacing="-0.4"
+    fill="url(#ai)">AI</text>
+</svg>
