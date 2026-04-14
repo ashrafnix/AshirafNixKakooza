@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./app/logo.svg" alt="RepurposeAI Logo" width="180"/>
+<img src="./logo.svg" alt="RepurposeAI Logo" width="180"/>
 
 # RepurposeAI
 
