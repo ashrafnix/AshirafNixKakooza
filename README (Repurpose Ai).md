@@ -548,10 +548,10 @@ RepurposeAI is fully integrated with the **PayPal REST API in live (production) 
 
 | Plan | Regular Billing ID | Launch Price ID |
 |---|---|---|
-| Starter | `P-6DV22536A4197813HNHMVNMI` | `P-2DB497816U1301831NHMVNMQ` |
-| Creator | `P-59247853WU7826034NHMVNMI` | `P-74E681394J482850WNHMVNMY` |
-| Pro | `P-5CB18145F2359271YNHMVNMQ` | `P-15V31003AX295605WNHMVNMY` |
-| Enterprise | `P-8NX05025259924427NHMVNMQ` | `P-5LA39148Y08238503NHMVNMY` |
+| Starter | `P-6DV*****` | `P-2DB*****` |
+| Creator | `P-592*****` | `P-74E*****` |
+| Pro | `P-5CB*****` | `P-15V*****` |
+| Enterprise | `P-8NX*****` | `P-5LA*****` |
 
 > Plan IDs are provisioned using `scripts/setup-paypal.mjs` via the PayPal REST API. The `LAUNCH` variants are grandfathered pricing plans with a permanent discount.
 
